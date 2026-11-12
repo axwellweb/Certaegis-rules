@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-11-11T12:00:00Z",
+  "rules": [
+    {
+      "issuer": "The Ministry of Digital Development and Communications",
+      "allowed_domains": ["*.gosuslugi.ru", "*.gov.ru", "*.nalog.ru", "*sberdevices.ru", "*sberbank.ru", "*tbank.ru", "*vtb.ru", "*tinkoff.ru"],
+      "description": "Российский гос. CA - может выпускать только для гос. сайтов и банков"
+    },
+    {
+      "issuer": "Gosuslugi CA",
+      "allowed_domains": ["*.gosuslugi.ru"],
+      "description": "CA Госуслуг - только для Госуслуг"
+    }
+  ]
+}
